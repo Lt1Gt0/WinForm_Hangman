@@ -1,0 +1,9 @@
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\bin\Debug\Hangman_Form.exe.config
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\bin\Debug\Hangman_Form.exe
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\bin\Debug\Hangman_Form.pdb
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\obj\Debug\Hangman_Form.csprojAssemblyReference.cache
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\obj\Debug\Hangman_Form.Hangman.resources
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\obj\Debug\Hangman_Form.Properties.Resources.resources
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\obj\Debug\Hangman_Form.csproj.GenerateResource.cache
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\obj\Debug\Hangman_Form.exe
+C:\Users\Simon\source\repos\Hangman_Form\Hangman_Form\obj\Debug\Hangman_Form.pdb
