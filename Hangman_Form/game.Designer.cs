@@ -28,12 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblCurrentGuess = new System.Windows.Forms.Label();
+            this.txtPlayerInput = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // lblCurrentGuess
+            // 
+            this.lblCurrentGuess.AutoSize = true;
+            this.lblCurrentGuess.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentGuess.Location = new System.Drawing.Point(84, 43);
+            this.lblCurrentGuess.Name = "lblCurrentGuess";
+            this.lblCurrentGuess.Size = new System.Drawing.Size(13, 18);
+            this.lblCurrentGuess.TabIndex = 0;
+            this.lblCurrentGuess.Text = ".";
+            // 
+            // txtPlayerInput
+            // 
+            this.txtPlayerInput.Location = new System.Drawing.Point(66, 82);
+            this.txtPlayerInput.Name = "txtPlayerInput";
+            this.txtPlayerInput.Size = new System.Drawing.Size(148, 20);
+            this.txtPlayerInput.TabIndex = 1;
+            // 
+            // game
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "game";
+            this.ClientSize = new System.Drawing.Size(279, 138);
+            this.Controls.Add(this.txtPlayerInput);
+            this.Controls.Add(this.lblCurrentGuess);
+            this.Name = "game";
+            this.Text = "Hangman";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblCurrentGuess;
+        private System.Windows.Forms.TextBox txtPlayerInput;
     }
 }
